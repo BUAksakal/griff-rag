@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q1",
+    "question": "What documents do I need for Anmeldung in Berlin?",
+    "language": "en",
+    "category": "anmeldung",
+    "expected_keywords": ["passport", "registration form", "rental agreement", "Bürgeramt"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "q2",
+    "question": "How do I apply for an EU Blue Card in Germany?",
+    "language": "en",
+    "category": "blue_card",
+    "expected_keywords": ["university degree", "job offer", "salary threshold", "residence permit"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q3",
+    "question": "What is the difference between public and private health insurance in Germany?",
+    "language": "en",
+    "category": "health_insurance",
+    "expected_keywords": ["gesetzlich", "privat", "Krankenkasse", "income threshold", "coverage"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q4",
+    "question": "How do I register for a tax ID number after moving to Germany?",
+    "language": "en",
+    "category": "tax",
+    "expected_keywords": ["Finanzamt", "Steueridentifikationsnummer", "Anmeldung", "tax class"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q5",
+    "question": "What are the main steps to relocate to Germany from a non-EU country?",
+    "language": "en",
+    "category": "relocation",
+    "expected_keywords": ["visa", "work permit", "Anmeldung", "health insurance", "embassy"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "q6",
+    "question": "What types of visas are available for skilled workers coming to Germany?",
+    "language": "en",
+    "category": "visa",
+    "expected_keywords": ["Blue Card", "skilled worker visa", "job seeker visa", "residence permit", "qualifications"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "q7",
+    "question": "How can I find affordable housing as a newcomer in Berlin?",
+    "language": "en",
+    "category": "housing",
+    "expected_keywords": ["WG", "Wohnungssuche", "Schufa", "Mietvertrag", "Kaution"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "q8",
+    "question": "Blue Card başvurusu için ne gerekiyor?",
+    "language": "tr",
+    "category": "blue_card",
+    "expected_keywords": ["diploma", "iş sözleşmesi", "maaş", "üniversite"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "q9",
+    "question": "Almanya'da Anmeldung nasıl yapılır ve hangi belgeler gereklidir?",
+    "language": "tr",
+    "category": "anmeldung",
+    "expected_keywords": ["pasaport", "kayıt formu", "kira sözleşmesi", "Bürgeramt", "randevu"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "q10",
+    "question": "Almanya'da sağlık sigortası zorunlu mu ve nasıl başvurulur?",
+    "language": "tr",
+    "category": "health_insurance",
+    "expected_keywords": ["Krankenkasse", "zorunlu", "sigorta", "devlet sigortası", "özel sigorta"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q11",
+    "question": "Almanya'ya taşınmak için hangi vize türleri mevcut?",
+    "language": "tr",
+    "category": "visa",
+    "expected_keywords": ["çalışma vizesi", "iş arama vizesi", "oturum izni", "başvuru", "konsolosluk"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q12",
+    "question": "Vergi numarası almak için Finanzamt'a nasıl başvurulur?",
+    "language": "tr",
+    "category": "tax",
+    "expected_keywords": ["Finanzamt", "Steuer-ID", "vergi sınıfı", "başvuru", "kayıt"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q13",
+    "question": "Almanya'da göçmen olarak daimi oturma izni nasıl alınır?",
+    "language": "tr",
+    "category": "settlement",
+    "expected_keywords": ["Niederlassungserlaubnis", "oturma izni", "süre", "dil seviyesi", "entegrasyon"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "q14",
+    "question": "Almanya'ya göç sürecinde entegrasyon kursları zorunlu mu?",
+    "language": "tr",
+    "category": "migration",
+    "expected_keywords": ["Integrationskurs", "dil kursu", "BAMF", "zorunlu", "B1"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "q15",
+    "question": "Wie melde ich mich bei der Krankenkasse an?",
+    "language": "de",
+    "category": "health_insurance",
+    "expected_keywords": ["Krankenkasse", "Versicherung", "gesetzlich", "privat"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "q16",
+    "question": "Welche Unterlagen brauche ich für die Anmeldung beim Bürgeramt?",
+    "language": "de",
+    "category": "anmeldung",
+    "expected_keywords": ["Reisepass", "Mietvertrag", "Anmeldeformular", "Wohnungsgeberbestätigung"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "q17",
+    "question": "Was sind die Voraussetzungen für die Blaue Karte EU?",
+    "language": "de",
+    "category": "blue_card",
+    "expected_keywords": ["Hochschulabschluss", "Arbeitsvertrag", "Gehalt", "Mindesteinkommen"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q18",
+    "question": "Wie bekomme ich eine Niederlassungserlaubnis in Deutschland?",
+    "language": "de",
+    "category": "settlement",
+    "expected_keywords": ["Aufenthaltstitel", "Niederlassungserlaubnis", "Sprachkenntnisse", "Lebensunterhalt", "Rentenversicherung"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "q19",
+    "question": "Wie finde ich eine Wohnung in Berlin als Ausländer?",
+    "language": "de",
+    "category": "housing",
+    "expected_keywords": ["Wohnungssuche", "Schufa", "Mietvertrag", "WG", "Immobilienscout24"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q20",
+    "question": "Welche Schritte muss ich nach der Einreise nach Deutschland unternehmen?",
+    "language": "de",
+    "category": "relocation",
+    "expected_keywords": ["Anmeldung", "Bankkonto", "Krankenversicherung", "Aufenthaltstitel", "Finanzamt"],
+    "difficulty": "hard"
+  }
+]
