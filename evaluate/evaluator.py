@@ -24,7 +24,7 @@ from typing import Any
 
 from tabulate import tabulate
 
-from src.retrieval.retriever import bm25_search, hybrid_search, naive_dense_search
+from src.retrieval.retriever import get_retriever
 from src.generation.generator import generate_answer
 
 # ---------------------------------------------------------------------------
@@ -182,7 +182,7 @@ def compute_context_precision(
     relevant = sum(
         1
         for chunk in chunks
-        if chunk.get("metadata", {}).get("category", "").lower()
+        if chunk.get("category", "").lower()
         == expected_category.lower()
     )
     return relevant / len(chunks)
@@ -322,7 +322,8 @@ def evaluate_question(
     # 2) Generate answer ----------------------------------------------------
     answer = ""
     try:
-        answer = generate_answer(query, chunks)
+        response = generate_answer(query, chunks)
+        answer = response["answer"] if isinstance(response, dict) else response
         # Rate-limit pause between API calls
         time.sleep(API_SLEEP_SECONDS)
     except Exception:
@@ -360,10 +361,12 @@ def evaluate_question(
 # ---------------------------------------------------------------------------
 # Full evaluation run
 # ---------------------------------------------------------------------------
+_retriever = get_retriever()
+
 METHODS: list[tuple[str, Any]] = [
-    ("Naive Dense (baseline)", naive_dense_search),
-    ("BM25 Only", bm25_search),
-    ("Hybrid + Rerank", hybrid_search),
+    ("Naive Dense (baseline)", _retriever.naive_dense_search),
+    ("BM25 Only", _retriever.bm25_search),
+    ("Hybrid + Rerank", _retriever.hybrid_search),
 ]
 
 
